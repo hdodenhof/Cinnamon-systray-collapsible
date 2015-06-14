@@ -1,6 +1,6 @@
 {
- "uuid": "systray@cinnamon.org",
- "name": "System Tray",
- "description": "An applet which hosts all the system tray icons",
- "icon": "indicator-applet"
+ "uuid": "systray-collapsible@hdodenhof.de",
+ "name": "Collapsible System Tray",
+ "description": "A collapsible system tray applet",
+ "version": "1.0"
 }
