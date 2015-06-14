@@ -1,0 +1,41 @@
+{
+ "head" : {
+    "type" : "header",
+    "description" : "The Display Duration"
+ },
+ "new-icon-time" : {
+    "type": "spinbutton",
+    "default" : 5,
+    "min" : 0,
+    "max" : 120,
+    "step" : 1,
+    "units" : "seconds",
+    "description" : "New Icons :",
+    "tooltip" : "Form 0 to 120 (0 to disable)"
+ },
+  "expand-time" : {
+    "type": "spinbutton",
+    "default" : 5,
+    "min" : 5,
+    "max" : 120,
+    "step" : 1,
+    "units" : "seconds",
+    "description" : "Manually Expand :",
+    "tooltip" : "Form 5 to 120"
+ },
+  "div1" : {
+    "type" : "separator"
+ },
+ "expand-icon-name": {
+    "type": "iconfilechooser",
+    "default" : "go-previous-symbolic",
+    "description" : "The Expand Icon :",
+    "tooltip" : "Select icon file"
+ },
+ "collapse-icon-name": {
+    "type": "iconfilechooser",
+    "default" : "go-next-symbolic",
+    "description" : "The Collapse Icon :",
+    "tooltip" : "Select icon file"
+ }
+}
